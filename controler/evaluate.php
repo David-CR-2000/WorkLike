@@ -25,7 +25,7 @@ if (!empty($faltan_respuestas)) {
 // Conexión a la base de datos
 $servername = "localhost";
 $username = "root"; // Cambia esto por tu usuario de MySQL
-$password = ""; // Cambia esto por tu contraseña de MySQL
+$password = "root1234"; // Cambia esto por tu contraseña de MySQL
 $dbname = "worklike";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
