@@ -8,7 +8,7 @@ if (isset($_GET["error"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>WorkLike</title>
 </head>
 <body>
@@ -24,7 +24,7 @@ if (isset($_GET["error"])) {
             </p>
         </div>
         <div class="form">
-            <form action="/controler/evaluate.php" method="POST">
+            <form action="../controler/evaluate.php" method="POST">
                 <!-- Sección 1: Gustos e Intereses -->
                 1. ¿Qué tipo de libros, películas o series prefieres? <br>
                 <input type="radio" name="pregunta1" value="Tecnologia"> Ciencia ficción o documentales técnicos <br>
@@ -173,7 +173,7 @@ if (isset($_GET["error"])) {
             </form>
         </div>
     </main>
-    <script src="/scripts/index.js"></script>
+    <script src="../scripts/index.js"></script>
     <footer>
         <?php include("../include/footer.php") ?>
     </footer>
